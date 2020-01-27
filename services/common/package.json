@@ -1,0 +1,20 @@
+{
+  "name": "@tslerna/common",
+  "version": "1.0.0",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -rf ./dist",
+    "compile": "tsc -p tsconfig.build.json",
+    "prepublishOnly": "npm run build",
+    "dev": "tsc -w -p tsconfig.build.json"
+  },
+  "dependencies": {
+    "typescript": "^3.7.5"
+  }
+}

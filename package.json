@@ -1,0 +1,21 @@
+{
+  "name": "tslerna",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "clean": "lerna run clean",
+    "build": "lerna run build",
+    "bootstrap": "lerna bootstrap --hoist",
+    "lerna": "lerna"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^13.5.0",
+    "lerna": "^3.20.2",
+    "nodemon": "^2.0.2",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {}
+}
